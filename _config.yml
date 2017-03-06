@@ -1,0 +1,21 @@
+# Site settings
+title: intelligent web development 
+header-img: img/home-bg.png
+email: jhondiaz0524@gmail.com
+copyright_name: jhondiaz0524
+description: > # this means to ignore newlines until "baseurl:"
+  in this blog I showcase important topics and technologies of the web
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  jhondiaz0524
+learn_profile: jhondiaz0524
+email_username: jhondiaz0524@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
